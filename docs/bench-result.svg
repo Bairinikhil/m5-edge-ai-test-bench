@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+  <title id="title">M5 Edge-AI Test Bench result: PASS</title>
+  <desc id="desc">A test result card showing 320 predictions, 5 to 6 microsecond latency, zero sequence gaps, and zero stream drops.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#12334a"/></linearGradient>
+    <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#143249"/><stop offset="1" stop-color="#1c4660"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000" flood-opacity=".3"/></filter>
+  </defs>
+  <rect width="1100" height="430" rx="24" fill="url(#bg)"/>
+  <text x="54" y="62" fill="#69e6c1" font-family="Arial,sans-serif" font-size="28" font-weight="700">M5 Edge-AI Test Bench</text>
+  <rect x="54" y="88" width="992" height="66" rx="16" fill="#0b4b43" stroke="#69e6c1" stroke-width="2"/>
+  <circle cx="88" cy="121" r="17" fill="#69e6c1"/><path d="M78 121 l7 7 14-16" fill="none" stroke="#07352f" stroke-width="4"/>
+  <text x="120" y="130" fill="#eafff8" font-family="Arial,sans-serif" font-size="27" font-weight="700">PASS</text>
+  <text x="208" y="129" fill="#b7e9dd" font-family="Arial,sans-serif" font-size="17">Saved M5CoreS3 classifier log · protocol and health checks passed</text>
+  <g filter="url(#shadow)" font-family="Arial,sans-serif">
+    <rect x="54" y="190" width="224" height="150" rx="16" fill="url(#panel)"/>
+    <rect x="302" y="190" width="224" height="150" rx="16" fill="url(#panel)"/>
+    <rect x="550" y="190" width="224" height="150" rx="16" fill="url(#panel)"/>
+    <rect x="798" y="190" width="248" height="150" rx="16" fill="url(#panel)"/>
+  </g>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <text x="166" y="230" fill="#9ebbd0" font-size="15">PREDICTIONS</text><text x="166" y="286" fill="#fff" font-size="42" font-weight="700">320</text>
+    <text x="414" y="230" fill="#9ebbd0" font-size="15">INFERENCE</text><text x="414" y="286" fill="#69e6c1" font-size="42" font-weight="700">5–6 µs</text>
+    <text x="662" y="230" fill="#9ebbd0" font-size="15">SEQUENCE GAPS</text><text x="662" y="286" fill="#69e6c1" font-size="42" font-weight="700">0</text>
+    <text x="922" y="230" fill="#9ebbd0" font-size="15">STREAM DROPS</text><text x="922" y="286" fill="#69e6c1" font-size="42" font-weight="700">0</text>
+  </g>
+  <text x="550" y="390" text-anchor="middle" fill="#b6cde0" font-family="Arial,sans-serif" font-size="16">STILL · SHAKING · ROTATING  |  USB serial health validation</text>
+</svg>

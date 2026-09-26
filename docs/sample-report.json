@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "predictions": 320,
+  "first_sequence": 161,
+  "last_sequence": 480,
+  "sequence_gaps": 0,
+  "labels_seen": ["ROTATING", "SHAKING", "STILL"],
+  "latency_us": {"min": 5, "median": 5.5, "max": 6},
+  "max_stream_drops": 0,
+  "checks": {
+    "valid_labels": true,
+    "nonnegative_latency": true,
+    "no_sequence_gaps": true,
+    "no_stream_drops": true
+  }
+}

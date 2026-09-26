@@ -2,6 +2,8 @@
 
 A small USB test bench for the M5 TinyML motion classifier. It checks the device output without reflashing, resetting, or changing firmware.
 
+![M5 Edge-AI Test Bench result](docs/bench-result.svg)
+
 ## What it checks
 
 - Valid prediction labels
@@ -30,6 +32,8 @@ To analyze the saved log from the classifier:
 ## Expected first result
 
 The current classifier has measured 5–6 µs inference and 0 stream drops in a stable run. This tool verifies those values again as a repeatable test rather than relying on a manual inspection of Serial Monitor output.
+
+The visual result above comes from the real saved classifier log used during development. A sanitized copy is included at [`docs/sample-report.json`](docs/sample-report.json); no personal data or raw serial log is published.
 
 ## Test strategy
 
